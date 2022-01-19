@@ -14,7 +14,9 @@
   <img align="center" alt="Jow-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Jow-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
 
-  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/avatars/428767561497444352/e00e2d971c97bd5fcf8a77b167c7c6fd.webp?size=600">
+  <div align="right" style="width: 170px; height: 150px; overflow: hidden; border-radius:50px;">
+    <img alt="Jow-pic" height="150" src="https://cdn.discordapp.com/avatars/428767561497444352/e00e2d971c97bd5fcf8a77b167c7c6fd.webp?size=600">
+  </div>
 </div>
 
   ##
