@@ -1,4 +1,5 @@
 ## Hi! I'm Jônatas and I'm a front-end developer.
+
 <div align="center">
   <a href="https://github.com/jonatasu">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jonatasu&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
@@ -17,7 +18,7 @@
   <img align="right" alt="Jow-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/avatars/428767561497444352/e00e2d971c97bd5fcf8a77b167c7c6fd.webp?size=600">
 </div>
 
-  ##
+##
 
 <div>
   <a href="https://linktr.ee/jonatasu" target="_blank"><img src="https://img.shields.io/badge/-LinkTree-green?style=for-the-badge&logo=linktree&logoColor=white" target="_blank"></a>
@@ -27,5 +28,25 @@
   <a href = "mailto:jonatasvieira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/jonatasu/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-  ![Snake animation](https://github.com/jonatasu/jonatasu/blob/output/github-contribution-grid-snake.svg)
+<br /><br />
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="github contribution grid snake animation"
+      src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
+
+<br /><br />
+
+![Snake animation](https://github.com/jonatasu/jonatasu/blob/output/github-contribution-grid-snake.svg)
+
 </div>
