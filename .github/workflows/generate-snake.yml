@@ -24,6 +24,6 @@ jobs:
       - name: Publica SVG na branch output
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.SNAKE }}
           publish_dir: ./output
           publish_branch: output
