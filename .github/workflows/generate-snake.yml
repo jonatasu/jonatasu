@@ -1,0 +1,29 @@
+# Gera a animação do SNK automaticamente usando o GitHub Actions
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Executa diariamente à meia-noite UTC
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Gera a animação do Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: jonatasu
+          outputs: |
+            ./output/github-contribution-grid-snake.svg
+            ./output/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Publica SVG na branch output
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: output
