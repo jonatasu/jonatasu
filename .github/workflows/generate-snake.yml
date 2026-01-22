@@ -9,21 +9,24 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Gera a animação do Snake
         uses: Platane/snk@v3
         with:
           github_user_name: jonatasu
+          github_token: ${{ secrets.SNAKE }}
           outputs: |
-            ./output/github-contribution-grid-snake.svg
-            ./output/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Publica SVG na branch output
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.SNAKE }}
-          publish_dir: ./output
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
           publish_branch: output
