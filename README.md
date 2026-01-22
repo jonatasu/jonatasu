@@ -14,6 +14,13 @@
   <img align="center" alt="Jow-Less" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/less/less-plain-wordmark.svg">
   <img align="center" alt="Jow-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Jow-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Jow-PrimeVue" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/primevue/primevue-original.svg">
+  <img align="center" alt="Jow-Vuetify" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg">
+  <img align="center" alt="Jow-Vite" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg">
+  <img align="center" alt="Jow-Vitest" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg">
+  <img align="center" alt="Jow-Jest" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
+  <img align="center" alt="Jow-TestingLibrary" height="30" width="40" src="https://testing-library.com/img/octopus-64x64.png">
+  <img align="center" alt="Jow-VueTestUtils" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg">
 
   <img align="right" alt="Jow-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/avatars/428767561497444352/e00e2d971c97bd5fcf8a77b167c7c6fd.webp?size=600">
 </div>
